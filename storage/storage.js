@@ -9,7 +9,7 @@ var storage = (function(win){
             realKey = {};
             
         realKey['realkey'] = tempArr[1];
-        realKey['expires'] = tempArr[3] || "";
+        realKey['expires'] = tempArr[2] || "";
         
         return realKey;
     }
